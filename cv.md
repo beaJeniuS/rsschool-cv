@@ -47,3 +47,8 @@ for(let i=0;i<a.length;i++) {
   return count;
 }
 ```
+## Education and courses
+* **Belarusian State University of Transport**, Faculty of Electrical Engineering
+### **Courses:**
+* JavaScript/Front-end in process
+* learn.javascript.ru in process
