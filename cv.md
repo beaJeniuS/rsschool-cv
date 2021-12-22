@@ -52,3 +52,8 @@ for(let i=0;i<a.length;i++) {
 ### **Courses:**
 * JavaScript/Front-end in process
 * learn.javascript.ru in process
+
+## Languages
+* Russian - native
+* English  
+![Certificate](/images/EF SET Certificate.png)
