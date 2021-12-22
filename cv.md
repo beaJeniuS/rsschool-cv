@@ -56,4 +56,4 @@ for(let i=0;i<a.length;i++) {
 ## Languages
 * Russian - native
 * English  
-![Certificate](/images/EF SET Certificate.png)
+![Certificate](/images/EF-SET-Certificate.png)
