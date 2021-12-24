@@ -23,9 +23,15 @@
   background-color: #040463;
 }
 
+nav {
+  height: 100%;
+}
+
 .main-menu {
+  height: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   list-style: none;
 }
 
@@ -35,5 +41,11 @@
   font-weight: bold;
   font-variant: small-caps;
   color: #ffffff;
-  margin: 5px 5px;
+  margin: 0 2px;
+  padding: 10px 5px;
+}
+
+.main-menu-item:hover {
+  color: #c54307;
+  background-color: #ffffff;
 }
