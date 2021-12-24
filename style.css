@@ -4,21 +4,36 @@
 }
 
 .container {
-  width: 80%;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
 .header-container {
-  height: 50px;
+  height: 100px;
   background-color: #040463;
 }
 
 .main-container {
-  height: 500px;
+  height: 800px;
   background-color: #e0d978;
 }
 
 .footer-container {
-  height: 50px;
+  height: 200px;
   background-color: #040463;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.main-menu-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #ffffff;
+  margin: 5px 5px;
 }
