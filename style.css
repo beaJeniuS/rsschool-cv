@@ -6,6 +6,7 @@
 :root {
   --main-color-menu: #040463;
   --main-color-content: #e0d978;
+  --color-1: rgb(151, 146, 146);
 }
 
 .container {
@@ -159,4 +160,8 @@ ul.universal-list li {
 .github-link {
   text-decoration: none;
   color: #ffffff;
+}
+
+.language-link {
+  align-items: center;
 }
