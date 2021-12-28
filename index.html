@@ -8,13 +8,13 @@
   <title>HTML, CSS & Git Basics</title>
 </head>
 <body>
-  <header class="container header-container">
+  <header class="container container-flex header-container">
     <div class="cv-logo">
       <span class="cv-letter">CV</span>
     </div>
     <div class="empty-bar"></div>
     <nav>
-      <ul class="main-menu">
+      <ul class="container-flex main-menu">
         <li><a class="main-menu-item" href="#contacts">Contacts</a></li>
         <li><a class="main-menu-item" href="#aboutMe">About Me</a></li>
         <li><a class="main-menu-item" href="#education">Education</a></li>
@@ -24,7 +24,7 @@
       </ul>
     </nav>
   </header>
-  <main class="container main-container">
+  <div class="container container-flex">
     <aside class="cv-bar">
       <section class="main-photo">
 
@@ -66,18 +66,20 @@
         <h3 class="section-header">Languages</h3>
       </section> 
     </aside>
-    <section class="section-information">
-      <section id="aboutMe" class="section-aboutMe">
-        <h3 class="section-header">About Me</h3>
-      </section> 
-      <section id="education" class="section-education">
-        <h3 class="section-header">Education</h3>
-      </section> 
-      <section id="code" class="section-code">
-        <h3 class="section-header">Code example</h3>
-      </section> 
-    </section>
-  </main>
+    <main class="main-container">
+      <section class="section-information">
+        <section id="aboutMe" class="section-aboutMe">
+          <h3 class="section-header">About Me</h3>
+        </section> 
+        <section id="education" class="section-education">
+          <h3 class="section-header">Education</h3>
+        </section> 
+        <section id="code" class="section-code">
+          <h3 class="section-header">Code example</h3>
+        </section> 
+      </section>
+    </main>
+  </div>
   <footer class="container footer-container">
     <div class="github-link-container">
     </div>
