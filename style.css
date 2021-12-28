@@ -105,11 +105,11 @@ nav {
   color: #ffffff;
 }
 
-.contacts-list {
+.universal-list {
   list-style: none;
 }
 
-ul.contacts-list li {
+ul.universal-list li {
 	list-style-type: none;
 	display: flex;
 	padding: 5px;
@@ -117,7 +117,7 @@ ul.contacts-list li {
 
 .icon-text {
   margin: 0;
-	padding: 2px;
+	padding: 5px;
   vertical-align: middle;
 	display: inline-block;
 	color: #ffffff;
