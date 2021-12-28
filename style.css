@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+:root {
+  --main-color-menu: #040463;
+  --main-color-content: #e0d978;
+}
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -15,18 +20,18 @@
 .header-container {
   height: 100px;
   justify-content: flex-end;
-  background-color: #040463;
+  background-color: var(--main-color-menu);
 }
 
 .main-container {
   display: flex;
-  background-color: #e0d978;
+  background-color: var(--main-color-content);
   width: 70%;
 }
 
 .footer-container {
-  height: 200px;
-  background-color: #040463;
+  height: 100px;
+  background-color: var(--main-color-menu);
 }
 
 nav {
@@ -86,7 +91,7 @@ nav {
 
 .cv-bar {
   width: 30%;
-  background-color: black;
+  background-color: var(--main-color-menu);
 }
 
 .section-information {
@@ -125,4 +130,28 @@ ul.contacts-list li {
 
 .svg-icon:hover {
   fill: #ffffff;
+}
+
+.github-link-container {
+  width: 40%;
+}
+
+.copy-right-container {
+  width: 20%;
+}
+
+.rsschool-link-container {
+  width: 40%;
+}
+
+.flex-hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
 }
