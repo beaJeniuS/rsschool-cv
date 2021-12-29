@@ -49,7 +49,7 @@ nav {
 .main-menu-item {
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: 'Fredoka One', cursive;
   font-variant: small-caps;
   color: #ffffff;
   margin: 0 2px;
@@ -74,11 +74,11 @@ nav {
 
 .cv-logo:hover {
   color: #ffffff;
-
 }
 
 .cv-letter {
   font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
   padding: 1px 8px;
 }
 
@@ -91,11 +91,12 @@ nav {
   background-color: var(--main-color-menu);
 }
 
-
 .section-header {
+  font-family: 'Fredoka One', cursive;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 400;
   font-variant: small-caps;
+  font-stretch: extra-expanded;
   color: #ffffff;
   text-align: center;
   background-color: var(--main-color-content);
@@ -165,7 +166,9 @@ ul.universal-list li {
 }
 
 .code-example {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  
+  width: 100%;
 }
 
 .js-keyword {
@@ -185,11 +188,17 @@ ul.universal-list li {
 
 .section-aboutMe {
   width: 100%;
-
 }
 
 .about-paragraph {
-  font-size: 1rem;
-  color: #0077aa;
+  font-size: 1.5rem;
+  font-family: 'Varela Round', sans-serif;  
+  color: var(--main-color-menu);
   padding: 20px;
+}
+
+.link-no-style {
+  text-decoration: none;
+  color: var(--main-color-menu);
+  font-weight: bold;
 }
