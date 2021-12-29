@@ -5,7 +5,7 @@
 
 :root {
   --main-color-menu: #040463;
-  --main-color-content: #e0d978;
+  --main-color-content: #ece79b;
 }
 
 .container {
@@ -97,7 +97,7 @@ nav {
   font-weight: 400;
   font-variant: small-caps;
   font-stretch: extra-expanded;
-  color: #ffffff;
+  color: var(--main-color-menu);
   text-align: center;
   background-color: var(--main-color-content);
 }
@@ -120,6 +120,7 @@ ul.universal-list li {
   vertical-align: middle;
 	display: inline-block;
 	color: #ffffff;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .svg-icon {
@@ -167,7 +168,7 @@ ul.universal-list li {
 
 .code-example {
   font-size: 1.5rem;
-  
+
   width: 100%;
 }
 
