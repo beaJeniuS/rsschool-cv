@@ -6,7 +6,6 @@
 :root {
   --main-color-menu: #040463;
   --main-color-content: #e0d978;
-  --color-1: rgb(151, 146, 146);
 }
 
 .container {
@@ -95,11 +94,9 @@ nav {
   background-color: var(--main-color-menu);
 }
 
-.section-information {
-  width: 70%;
-}
 
 .section-header {
+  padding: 0 10px;
   font-size: 2rem;
   font-weight: bold;
   font-variant: small-caps;
@@ -183,4 +180,15 @@ ul.universal-list li {
 }
 .js-number {
   color: #2f2fac;
+}
+
+.section-aboutMe {
+  width: 100%;
+
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  color: #0077aa;
+  padding: 20px;
 }
