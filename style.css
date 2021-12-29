@@ -59,7 +59,7 @@ nav {
 
 .main-menu-item:hover {
   color: #c54307;
-  background-color: #ffffff;
+  background-color: var(--main-color-content);
   border-radius: 4px;
 }
 
@@ -96,11 +96,12 @@ nav {
 
 
 .section-header {
-  padding: 0 10px;
   font-size: 2rem;
   font-weight: bold;
   font-variant: small-caps;
   color: #ffffff;
+  text-align: center;
+  background-color: var(--main-color-content);
 }
 
 .universal-list {
@@ -108,26 +109,29 @@ nav {
 }
 
 ul.universal-list li {
+  height: 30px;
 	list-style-type: none;
 	display: flex;
+  align-items: center;
 	padding: 5px;
 }
 
 .icon-text {
   margin: 0;
-	padding: 5px;
+	padding-left: 10px;
   vertical-align: middle;
 	display: inline-block;
 	color: #ffffff;
-	
 }
 
 .svg-icon {
+  padding-left: 10px;
   vertical-align: middle;
+  fill: #ffffff;
 }
 
 .svg-icon:hover {
-  fill: #ffffff;
+  fill: var(--main-color-content);
 }
 
 .github-link-container {
