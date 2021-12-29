@@ -165,3 +165,22 @@ ul.universal-list li {
 .language-link {
   align-items: center;
 }
+
+.code-example {
+  font-size: 1rem;
+}
+
+.js-keyword {
+  color: #dd4a68;
+}
+
+.js-function {
+  color: #0077aa;
+}
+
+.js-punctuation {
+  color: #706e6e;
+}
+.js-number {
+  color: #2f2fac;
+}
