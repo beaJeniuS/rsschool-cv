@@ -167,7 +167,7 @@
           </li>
           <li>
             <img class="svg-icon" src="images/uk_flag_s.png" alt="Russian flag" width="24" height="24">
-            <a class="language-link" href="files/EF SET Certificate.pdf"> 
+            <a class="language-link" href="files/EF_SET_Certificate.pdf"> 
               <p class="icon-text">English B1/B2 in progress... (&gt;&gt;)</p>
             </a>
           </li>
@@ -175,48 +175,46 @@
       </section> 
     </aside>
     <main class="main-container">
-      <section class="section-information">
-        <section id="aboutMe" class="section-aboutMe">
-          <h2 class="section-header">About Me</h2>
-          <p class="about-paragraph">I am working as an automation engineer in petrochemical industry.
-            My experience in programming is outside the field of web development and programming.
-            Languages I know are not applicable here, except, I think, SQL only. Recently I 
-            considered to try something new and started this course. My experience in web 
-            development is too low until but I am very interested in this activity. I hope this 
-            course with its difficult and interesting tasks will help me understand if I can work this way.</p>
-        </section> 
-        <section id="education" class="section-education">
-          <h2 class="section-header">Education</h2>
-            <p class="about-paragraph">Belarusian State University of Transport<br> 
-             - Faculty of Electrical Engineering</p> 
-        </section> 
-        <section id="code" class="section-code">
-          <h2 class="section-header">Code example</h2>
-          <p class="about-paragraph">
-            <a class="link-no-style" href="https://www.codewars.com/kata/596f72bbe7cd7296d1000029">Array Deep Count from CODEWARS: (&gt;&gt;)</a>
-          </p>
-          <pre>
-            <code class="code-example">
-              <span class="js-keyword">function</span> <span class="js-function">deepCount</span><span class="js-punctuation">(</span>a<span class="js-punctuation">){</span>
-                <span class="js-keyword">let</span> count <span class="js-punctuation">=</span> <span class="js-number">0</span><span class="js-punctuation">;</span>
-              <span class="js-keyword">for</span><span class="js-punctuation">(</span><span class="js-keyword">let</span> i<span class="js-number">=0</span><span class="js-punctuation">;</span>i<span class="js-number">&lt;</span>a.<span class="js-number">length</span><span class="js-punctuation">;</span>i<span class="js-number">++</span><span class="js-punctuation">) {</span>
-                <span class="js-keyword">if</span><span class="js-punctuation">(</span>Array.<span class="js-function">isArray</span><span class="js-punctuation">(</span>a[i]<span class="js-punctuation">)</span><span class="js-number">==false</span><span class="js-punctuation">) {</span>
-                    count <span class="js-number">+= 1</span><span class="js-punctuation">;}</span>
-                <span class="js-keyword">else</span> <span class="js-punctuation">{</span>
-                    count <span class="js-number">+= 1</span><span class="js-punctuation">;</span>
-                    count <span class="js-number">+=</span> <span class="js-function">deepCount</span><span class="js-punctuation">(</span>a[i]<span class="js-punctuation">);}}</span>
-                <span class="js-keyword">return</span> count<span class="js-punctuation">;}</span>
-            </code>
-          </pre>
-        </section> 
-      </section>
+      <section id="aboutMe" class="section-aboutMe">
+        <h2 class="section-header">About Me</h2>
+        <p class="about-paragraph">I am working as an automation engineer in petrochemical industry.
+          My experience in programming is outside the field of web development and programming.
+          Languages I know are not applicable here, except, I think, SQL only. Recently I 
+          considered to try something new and started this course. My experience in web 
+          development is too low until but I am very interested in this activity. I hope this 
+          course with its difficult and interesting tasks will help me understand if I can work this way.</p>
+      </section> 
+      <section id="education" class="section-education">
+        <h2 class="section-header">Education</h2>
+          <p class="about-paragraph">Belarusian State University of Transport<br> 
+            - Faculty of Electrical Engineering</p> 
+      </section> 
+      <section id="code" class="section-code">
+        <h2 class="section-header">Code example</h2>
+        <p class="about-paragraph">
+          <a class="link-no-style" href="https://www.codewars.com/kata/596f72bbe7cd7296d1000029">Array Deep Count from CODEWARS: (&gt;&gt;)</a>
+        </p>
+        <pre>
+          <code class="code-example">
+            <span class="js-keyword">function</span> <span class="js-function">deepCount</span><span class="js-punctuation">(</span>a<span class="js-punctuation">){</span>
+              <span class="js-keyword">let</span> count <span class="js-punctuation">=</span> <span class="js-number">0</span><span class="js-punctuation">;</span>
+            <span class="js-keyword">for</span><span class="js-punctuation">(</span><span class="js-keyword">let</span> i<span class="js-number">=0</span><span class="js-punctuation">;</span>i<span class="js-number">&lt;</span>a.<span class="js-number">length</span><span class="js-punctuation">;</span>i<span class="js-number">++</span><span class="js-punctuation">) {</span>
+              <span class="js-keyword">if</span><span class="js-punctuation">(</span>Array.<span class="js-function">isArray</span><span class="js-punctuation">(</span>a[i]<span class="js-punctuation">)</span><span class="js-number">==false</span><span class="js-punctuation">) {</span>
+                  count <span class="js-number">+= 1</span><span class="js-punctuation">;}</span>
+              <span class="js-keyword">else</span> <span class="js-punctuation">{</span>
+                  count <span class="js-number">+= 1</span><span class="js-punctuation">;</span>
+                  count <span class="js-number">+=</span> <span class="js-function">deepCount</span><span class="js-punctuation">(</span>a[i]<span class="js-punctuation">);}}</span>
+              <span class="js-keyword">return</span> count<span class="js-punctuation">;}</span>
+          </code>
+        </pre>
+      </section> 
     </main>
   </div>
   <footer class="container container-flex footer-container">
     <div class="flex-hv-center github-link-container">
       <a class="github-link" href="https://github.com/beaJenius">
         <figure>
-          <p><img src="images/github.svg" alt="GitHub icon"></pass=>
+          <p><img src="images/github.svg" alt="GitHub icon"></p>
           <figcaption >beaJenius</figcaption>
          </figure>
       </a>
