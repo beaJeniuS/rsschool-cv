@@ -208,6 +208,6 @@ h1 {
   display: none;
 }
 
-.main-photo-section-header {
-  display: none;
+.main-photo-img {
+  width: 100%;
 }
