@@ -203,3 +203,11 @@ ul.universal-list li {
   color: var(--main-color-menu);
   font-weight: bold;
 }
+
+h1 {
+  display: none;
+}
+
+.main-photo-section-header {
+  display: none;
+}
