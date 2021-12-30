@@ -25,6 +25,7 @@
 
 .main-container {
   display: flex;
+  flex-direction: column;
   background-color: var(--main-color-content);
   width: 70%;
 }
@@ -202,4 +203,12 @@ ul.universal-list li {
   text-decoration: none;
   color: var(--main-color-menu);
   font-weight: bold;
+}
+
+h1 {
+  display: none;
+}
+
+.main-photo-img {
+  width: 100%;
 }
