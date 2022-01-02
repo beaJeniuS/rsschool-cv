@@ -146,6 +146,13 @@ ul.universal-list li {
   width: 40%;
 }
 
+.rsschool-link {
+  padding: 0px 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: var(--main-color-content);
+}
+
 .flex-hv-center {
   display: flex;
   justify-content: center;
@@ -155,12 +162,16 @@ ul.universal-list li {
 .copyright-text {
   color: #ffffff;
   font-size: 16px;
+  font-family: 'Varela Round', sans-serif; 
   font-weight: bold;
 }
 
 .github-link {
   text-decoration: none;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .language-link {
@@ -169,8 +180,6 @@ ul.universal-list li {
 
 .code-example {
   font-size: 1.5rem;
-
-  width: 100%;
 }
 
 .js-keyword {
@@ -211,4 +220,16 @@ h1 {
 
 .main-photo-img {
   width: 100%;
+}
+
+pre {
+  margin: 30px;
+  border: 1px solid var(--main-color-menu);
+  border-radius: 10px;
+}
+
+.github-link-text-footer {
+  padding-left: 10px;
+  font-family: 'Varela Round', sans-serif; 
+  font-weight: bold;
 }
