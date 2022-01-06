@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -103,6 +104,10 @@ nav {
   background-color: var(--main-color-content);
 }
 
+.header-about {
+  font-size: 1.5rem;
+}
+
 .universal-list {
   list-style: none;
 }
@@ -132,6 +137,8 @@ ul.universal-list li {
 
 .svg-icon:hover {
   fill: var(--main-color-content);
+  width: 32px;
+  height: 32px;
 }
 
 .github-link-container {
@@ -144,6 +151,10 @@ ul.universal-list li {
 
 .rsschool-link-container {
   width: 40%;
+}
+
+.section-presentation {
+  height: 120px;
 }
 
 .rsschool-link {
@@ -201,6 +212,10 @@ ul.universal-list li {
   width: 100%;
 }
 
+.my-name {
+  font-size: 48px;
+}
+
 .about-paragraph {
   font-size: 1.5rem;
   font-family: 'Varela Round', sans-serif;  
@@ -215,7 +230,7 @@ ul.universal-list li {
 }
 
 h1 {
-  display: none;
+  
 }
 
 .main-photo-img {
