@@ -1,6 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color-menu: #040463;
+  --main-color-content: #ecd29b;
 }
 
 .container {
@@ -8,21 +14,26 @@
   margin: 0 auto;
 }
 
+.container-flex {
+  display: flex;
+}
+
 .header-container {
   height: 100px;
-  display: flex;
   justify-content: flex-end;
-  background-color: #040463;
+  background-color: var(--main-color-menu);
 }
 
 .main-container {
   display: flex;
-  background-color: #e0d978;
+  flex-direction: column;
+  background-color: var(--main-color-content);
+  width: 70%;
 }
 
 .footer-container {
-  height: 200px;
-  background-color: #040463;
+  height: 100px;
+  background-color: var(--main-color-menu);
 }
 
 nav {
@@ -32,7 +43,6 @@ nav {
 
 .main-menu {
   height: 100%;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
@@ -41,7 +51,7 @@ nav {
 .main-menu-item {
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: 'Fredoka One', cursive;
   font-variant: small-caps;
   color: #ffffff;
   margin: 0 2px;
@@ -51,7 +61,7 @@ nav {
 
 .main-menu-item:hover {
   color: #c54307;
-  background-color: #ffffff;
+  background-color: var(--main-color-content);
   border-radius: 4px;
 }
 
@@ -66,15 +76,12 @@ nav {
 
 .cv-logo:hover {
   color: #ffffff;
-
 }
 
 .cv-letter {
   font-size: 3rem;
+  font-family: 'Fredoka One', cursive;
   padding: 1px 8px;
-  background-color: #e0d978;
-  border: 5px solid #d38e18;
-  border-radius: 25px;
 }
 
 .empty-bar {
@@ -83,42 +90,157 @@ nav {
 
 .cv-bar {
   width: 30%;
-}
-
-.section-information {
-  width: 70%;
+  background-color: var(--main-color-menu);
 }
 
 .section-header {
+  font-family: 'Fredoka One', cursive;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 400;
   font-variant: small-caps;
-  color: #ffffff;
+  font-stretch: extra-expanded;
+  color: var(--main-color-menu);
+  text-align: center;
+  background-color: var(--main-color-content);
 }
 
-.contacts-list {
+.header-about {
+  font-size: 1.5rem;
+}
+
+.universal-list {
   list-style: none;
 }
 
-ul.contacts-list li {
+ul.universal-list li {
+  height: 30px;
 	list-style-type: none;
 	display: flex;
+  align-items: center;
 	padding: 5px;
 }
 
 .icon-text {
   margin: 0;
-	padding: 2px;
+	padding-left: 10px;
   vertical-align: middle;
 	display: inline-block;
 	color: #ffffff;
-	
+  font-family: 'Varela Round', sans-serif;
 }
 
 .svg-icon {
+  padding-left: 10px;
   vertical-align: middle;
+  fill: #ffffff;
 }
 
 .svg-icon:hover {
-  fill: #ffffff;
+  fill: var(--main-color-content);
+  width: 32px;
+  height: 32px;
+}
+
+.github-link-container {
+  width: 40%;
+}
+
+.copy-right-container {
+  width: 20%;
+}
+
+.rsschool-link-container {
+  width: 40%;
+}
+
+.section-presentation {
+  height: 120px;
+}
+
+.rsschool-link {
+  padding: 0px 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: var(--main-color-content);
+}
+
+.flex-hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Varela Round', sans-serif; 
+  font-weight: bold;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-link {
+  align-items: center;
+}
+
+.code-example {
+  font-size: 1.5rem;
+}
+
+.js-keyword {
+  color: #dd4a68;
+}
+
+.js-function {
+  color: #0077aa;
+}
+
+.js-punctuation {
+  color: #706e6e;
+}
+.js-number {
+  color: #2f2fac;
+}
+
+.section-aboutMe {
+  width: 100%;
+}
+
+.my-name {
+  font-size: 48px;
+}
+
+.about-paragraph {
+  font-size: 1.5rem;
+  font-family: 'Varela Round', sans-serif;  
+  color: var(--main-color-menu);
+  padding: 20px;
+}
+
+.link-no-style {
+  text-decoration: none;
+  color: var(--main-color-menu);
+  font-weight: bold;
+}
+
+.main-photo-img {
+  width: 100%;
+}
+
+pre {
+  margin: 30px;
+  border: 1px solid var(--main-color-menu);
+  border-radius: 10px;
+}
+
+.github-link-text-footer {
+  padding-left: 10px;
+  font-family: 'Varela Round', sans-serif; 
+  font-weight: bold;
 }
